@@ -2,6 +2,7 @@ package helper.journal;
 
 import android.util.Xml;
 
+import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlSerializer;
 
 import java.io.IOException;
@@ -113,6 +114,58 @@ public class DataManagment
             }
         }
 
-        
+        //save all files here
     }
+
+    public static void ReadXMLDocuments(String filename)
+    {
+        //retrieve file here
+    }
+
+    public static void ReadXMLJournalList(String xml)
+    {
+        try
+        {
+
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally
+        {
+
+        }
+    }
+
+    public static void ReadXMLEntryList(String xml)
+    {
+        try
+        {
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally
+        {
+        }
+    }
+
+    public static void ReadXMLEntry(Entry entry, String xml)
+    {
+        try
+        {
+            XmlPullParser parser = Xml.newPullParser();
+
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally
+        {
+        }
+    }
+
 }
